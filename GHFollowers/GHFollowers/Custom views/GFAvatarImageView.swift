@@ -1,5 +1,5 @@
 //
-//  GFAvatarImageView.swift
+//  GFImageView.swift
 //  GHFollowers
 //
 //  Created by Andres Rivillas on 4/09/24.
@@ -8,13 +8,22 @@
 import UIKit
 
 class GFAvatarImageView: UIImageView {
+    
+    let placeholderImage = UIImage(named: "avatar-placeholder")
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        configure()
     }
-    */
-
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func configure() {
+        layer.cornerRadius = 10
+        clipsToBounds = true
+        image = placeholderImage
+        translatesAutoresizingMaskIntoConstraints = false
+    }
 }
