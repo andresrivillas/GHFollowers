@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Andres Rivillas on 4/09/24.
+//  Created by Andres Rivillas on 6/09/24.
 //
 
 import Foundation
