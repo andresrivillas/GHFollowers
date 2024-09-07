@@ -1,0 +1,23 @@
+//
+//  GFRepoItemVC.swift
+//  GHFollowers
+//
+//  Created by Andres Rivillas on 7/09/24.
+//
+
+import UIKit
+
+class GFRepoItemVC: GFItemInfoVC {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        configureItems()
+    }
+    
+    private func configureItems() {
+        itemInfoViewOne.set(itemInfoType: .repos, withCount: user.publicRepos)
+        itemInfoViewTwo.set(itemInfoType: .gist, withCount: user.publicGists)
+        actionButton.set(backgroundColor: .systemPurple, title: "Github Profile")
+    }
+    
+}
