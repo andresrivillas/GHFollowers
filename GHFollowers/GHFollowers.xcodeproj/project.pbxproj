@@ -38,6 +38,7 @@
 		DCFB2AF02C8D002C0088E642 /* GFFollowerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB2AEF2C8D002C0088E642 /* GFFollowerVC.swift */; };
 		DCFB2AF32C8D03910088E642 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB2AF22C8D03910088E642 /* Date+Ext.swift */; };
 		DCFB2AF52C8D03C50088E642 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB2AF42C8D03C50088E642 /* String+Ext.swift */; };
+		DCFD20062C8E3E63005286DF /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD20052C8E3E63005286DF /* PersistanceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		DCFB2AEF2C8D002C0088E642 /* GFFollowerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerVC.swift; sourceTree = "<group>"; };
 		DCFB2AF22C8D03910088E642 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		DCFB2AF42C8D03C50088E642 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		DCFD20052C8E3E63005286DF /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DC67D11D2C88F83800CC41CC /* NetworkManager.swift */,
+				DCFD20052C8E3E63005286DF /* PersistanceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				DC7F90A82C8658E60083D391 /* SearchVC.swift in Sources */,
 				DCFB2AEA2C8CF3A30088E642 /* GFItemInfoView.swift in Sources */,
 				DCF741B02C87B65000B838C5 /* GFAlertVC.swift in Sources */,
+				DCFD20062C8E3E63005286DF /* PersistanceManager.swift in Sources */,
 				DCA760282C890B52009011D7 /* FollowerCell.swift in Sources */,
 				DCFB2AE42C8CE16B0088E642 /* GFUserInfoHeaderVC.swift in Sources */,
 				DC9614732C8BB6B20039194B /* GFError.swift in Sources */,
